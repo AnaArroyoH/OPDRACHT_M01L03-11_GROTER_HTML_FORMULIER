@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Ana's eerste website poging </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class=box-1>
+        <nav>
+            <ul class=navigation-links>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>
+        Contact
+    </h1>
+
+    <div class=pinkish-border_1>
+        <form>
+            <p>
+                <label>Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label> Email: <input type="email" name="email" /></label>
+                <label> Telephone: <input type="tel" Name="telephone" /> </label>
+            </p>
+            <p>
+                <label> Age: <input type="number" name="age" /></label>
+                <label> Birthday: <input type="date" name="birthday" /></label>
+            </p>
+            <p>
+                <label> Female <input type="radio" name="gender" /></label>
+                <label> Male <input type="radio" name="gender" /></label>
+                <label> Other <input type="radio" name="gender" /></label>
+                <!--NOTE TO SELF: to be able to only check one of the buttons you have to name them all the same-->
+            </p>
+            Favourite cuisine:
+            <label> Mexican <input type="checkbox" name="Favourite cuisine" /></label>
+            <label> Italian <input type="checkbox" name="Favourite cuisine" /></label>
+            <label> Japanese <input type="checkbox" name="Favourite cuisine" /></label>
+            <label> Moroccan <input type="checkbox" name="Favourite cuisine" /></label>
+            <p>
+                <label> Favourite colour shorts: <input type="color" name="colour" /></label>
+            </p>
+            <p>
+                <label> Biography: <textarea name="Biography"></textarea></label>
+            </p>
+            <p>
+                <label> Upload your latest recipe: <input type="file" name="file" /></label>
+            </p>
+            <p>
+                <label> Your Favourite recipe website: <input type="url" name="url" /></label>
+            </p>
+            <p>
+                <button type="submit">Send</button> <button type="reset">Reset</button>
+            </p>
+        </form>
+    </div>
+
+</body>
+
+</html>
